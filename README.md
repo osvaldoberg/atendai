@@ -91,16 +91,6 @@ Veja [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) para detalhes completos.
 
 ---
 
-## Documentação
-
-| Arquivo | Conteúdo |
-|---------|----------|
-| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | Diagrama, agentes, stack, domínio, estrutura de pastas |
-| [`docs/GUIDELINES.md`](docs/GUIDELINES.md) | TDD, princípio de simplicidade, convenções de código |
-| [`docs/SPRINTS.md`](docs/SPRINTS.md) | Roteiro de sprints e critérios de aceite |
-
----
-
 ## Variáveis de ambiente
 
 | Variável | Descrição |
