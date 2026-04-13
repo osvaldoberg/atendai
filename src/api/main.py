@@ -55,7 +55,7 @@ async def health_check() -> JSONResponse:
     try:
         async with httpx.AsyncClient(timeout=2) as client:
             resp = await client.get(
-                f"http://{settings.chroma_host}:{settings.chroma_port}/api/v1/heartbeat"
+                f"http://{settings.chroma_host}:{settings.chroma_port}/api/v2/heartbeat"
             )
             resp.raise_for_status()
         result["services"]["chromadb"] = "ok"
